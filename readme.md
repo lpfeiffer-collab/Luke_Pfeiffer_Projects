@@ -6,16 +6,18 @@ Time spent: **7** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
+### 1. (Required) Authenticated Embedded URL (XSS)
+  - [ ] Summary: By using an embedded URL that contains a script an attack can occur when the url is activated. In this case a Youtube URL is used. 
+  The HTML sanitization feature which filters out backslashes is unable to filter out "\x3c" and this allows the script to be run. 
+    - Vulnerability types:Cross-Site Scripting (XSS)
     - Tested in version:4.2.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/lpfeiffer-collab/codepath_homework/blob/WordPress_Pentesting/Vuln%201.gif" width="800">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: You must first have some posting privelages. You will then need to create a new post and give it a title name.
+  You will then need to post any youtube url with the \x3c escaping characters for your xss sxript. [embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpscan.com/vulnerability/8768)
 ### 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -34,24 +36,6 @@ Time spent: **7** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
