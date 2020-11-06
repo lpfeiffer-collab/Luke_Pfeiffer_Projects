@@ -15,7 +15,8 @@ Time spent: **7** hours spent in total
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/lpfeiffer-collab/codepath_homework/blob/WordPress_Pentesting/Vuln%201.gif" width="800">
   - [ ] Steps to recreate: You must first have some posting privelages. You will then need to create a new post and give it a title name.
-  You will then need to post any youtube url with the \x3c escaping characters for your xss sxript. [embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]
+  You will then need to post any youtube url with the \x3c escaping characters for your xss sxript. 
+  "[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]"
   - [ ] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/8768)
 ### 2. (Required) Vulnerability Name or ID
