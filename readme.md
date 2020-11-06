@@ -17,6 +17,7 @@ Time spent: **7** hours spent in total
   - [ ] Steps to recreate: You must first have some posting privelages. You will then need to create a new post and give it a title name. You will then need to post any youtube url with the \x3c escaping characters for your xss sxript. `[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]`
   - [ ] Affected source code:
     - [https://wpscan.com/vulnerability/8768](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 ### 2. (Required) Authenticated elements (XSS)
   - [ ] Summary: By inserting a script into the HTML tags that are not closed a hacker can post his attack by simply having a user point there mouse on HTML text.
     - Vulnerability types:Cross-Site Scripting (XSS)
@@ -27,6 +28,7 @@ Time spent: **7** hours spent in total
   - [ ] Steps to recreate: You must first have some posting privelages. You will then need to create a new post and give it a title name. You will then need to post this `[caption width="1" caption='<a href="' ">]</a><a href=" onmouseover='alert("xss attack")' ">Click Now</a>`. 
   - [ ] Affected source code:
     - [https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
