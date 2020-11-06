@@ -54,18 +54,20 @@ Time spent: **7** hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
+- [codepath](https://courses.codepath.org/courses/cybersecurity_university/unit/7#!assignment)
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- [wpscan](https://wpscan.com/wordpresses)
+- [klikki](https://klikki.fi)
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIFs created with [KAP](https://getkap.co).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Finding vulnerabilities through wpscan can be lenghty and time consuming. However once you find one it is easier to find others. 
 
 ## License
 
