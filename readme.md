@@ -29,15 +29,16 @@ Time spent: **7** hours spent in total
   - [ ] Affected source code:
     - [Link 1](http://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/)
 
-### 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+### 3. (Required) Authenticated Stored XSS
+  - [ ] Summary: This one is similar to the embedded youtube url xss. Using the href html attribute to remain unclosed the injected code will remain unfiltered. Using </a> the injection is closed and stored in the code. 
+    - Vulnerability types:Cross-Site Scripting
+    - Tested in version:4.2.2
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  <img src="https://github.com/lpfeiffer-collab/codepath_homework/blob/WordPress_Pentesting/Vuln%203.gif" width="800">
+  - [ ] Steps to recreate: You need to create a post containing the following `<a href="[caption code=">]</a><a title=" onclick=alert('xss123') ">Click Now</a>`.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://www.vulnerability-lab.com/resources/documents/531.txt)
 
 ## Assets
 
