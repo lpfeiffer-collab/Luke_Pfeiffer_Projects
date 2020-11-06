@@ -2,7 +2,7 @@
 
 Time spent: **7** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -18,8 +18,8 @@ Time spent: **7** hours spent in total
   You will then need to post any youtube url with the \x3c escaping characters for your xss sxript. 
   "[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]"
   - [ ] Affected source code:
-    - [Link 1](https://wpscan.com/vulnerability/8768)
-### 2. (Required) Vulnerability Name or ID
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+### 2. (Required) 
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
