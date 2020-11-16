@@ -21,13 +21,13 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="CSRF - Red.gif">
+<img src="SQL Injection - Blue.gif">
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="blue-vuln2.gif">
+<img src="Session Hijacking - Blue.gif">
 
 ## Green
 
@@ -35,13 +35,13 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="green-vuln1.gif">
+<img src="User Enumeration - Green.gif">
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="green-vuln2.gif">
+<img src="XSS - Green.gif">
 
 
 ## Red
@@ -50,13 +50,13 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="red-vuln1.gif">
+<img src="CSRF - Red.gif">
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="red-vuln2.gif">
+<img src="URL Manipulation - Red.gif">
 
 
 ## Notes
