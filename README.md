@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -19,13 +19,13 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection (SQLi)
 
-Description:
+Description: using `' or sleep(0)=0--'` sql statement queries and brings up DBurke. 
 
 <img src="SQL Injection - Blue.gif">
 
 Vulnerability #2: Session Hijacking/Fixation
 
-Description:
+Description:By logging into another website with credentials I am able to copy the session id from green to blue and login to blue website without entering credentials. You are able to change the session ids with hacktools. 
 
 <img src="Session Hijacking - Blue.gif">
 
@@ -33,13 +33,13 @@ Description:
 
 Vulnerability #1: User Enumeration
 
-Description:
+Description:When entering a correct username the log in was unsuccessful message is in bold. When the username is incorrect the message in not bolded. 
 
 <img src="User Enumaration - Green.gif">
 
 Vulnerability #2: XSS
 
-Description:
+Description:By inserting a xss script `<script>alert(‘Luke found the XSS!');</script>` the script is activated upon loading in the green website on the feedback page. 
 
 <img src="XSS - Green.gif">
 
@@ -48,12 +48,13 @@ Description:
 
 Vulnerability #1: CSRF
 
-Description:
+Description:You are able to make changes to user info with an improper session id. 
 
 <img src="CSRF - Red.gif">
 
-Vulnerability #2: URL Manipulation
-Description:
+Vulnerability #2: URL Manipulation/IDOR
+
+Description:By changing ID number in the URL you can bring up users who are supposed to be hidden.
 
 <img src="URL Manipulation - Red.gif">
 
