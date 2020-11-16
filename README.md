@@ -19,7 +19,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection (SQLi)
 
-Description: using `' or sleep(0)=0--'` sql statement queries and brings up DBurke. 
+Description: using `' or sleep(0)=0--'` the sql statement queries the dbms and brings up user DBurke. 
 
 <img src="SQL Injection - Blue.gif">
 
