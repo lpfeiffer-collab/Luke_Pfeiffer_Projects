@@ -35,7 +35,7 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="User Enumeration - Green.gif">
+<img src="User Enumaration - Green.gif">
 
 Vulnerability #2: __________________
 
