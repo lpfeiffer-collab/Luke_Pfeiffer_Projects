@@ -17,13 +17,13 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection (SQLi)
 
 Description:
 
 <img src="SQL Injection - Blue.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 
 Description:
 
@@ -31,13 +31,13 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: User Enumeration
 
 Description:
 
 <img src="User Enumaration - Green.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: XSS
 
 Description:
 
@@ -46,14 +46,13 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: CSRF
 
 Description:
 
 <img src="CSRF - Red.gif">
 
-Vulnerability #2: __________________
-
+Vulnerability #2: URL Manipulation
 Description:
 
 <img src="URL Manipulation - Red.gif">
