@@ -61,4 +61,4 @@ Description:By changing ID number in the URL you can bring up users who are supp
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Challenges I faced were finding what worked and didnt work. Tinkering around with the website to discover things is time consuming. 
