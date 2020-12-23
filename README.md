@@ -1,3 +1,1 @@
-# codepath_homework
-
-See branches for assignments.
+See branches for Projects.
